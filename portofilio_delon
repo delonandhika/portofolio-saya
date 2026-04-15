@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portofolio Saya</title>
+    
+    <link rel="stylesheet" href="style.css"> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Porto<span>Folio</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section class="about-page">
+        <div class="container">
+            <div class="about-header">
+                <div class="about-img">
+                    <img src="foto-profil.jpeg" alt="Foto Profil">
+                </div>
+                <div class="about-text">
+                    <h2>Tentang Saya</h2>
+                    <p>Halo! Saya adalah mahasiswa <strong>Teknik Informatika</strong> yang memiliki antusiasme tinggi dalam mengolah data mentah menjadi informasi yang berharga. Fokus utama saya adalah pengembangan model Machine Learning dan analisis data e-commerce.</p>
+                    <p>Saya senang mempelajari hal-hal baru dan terus mengasah kemampuan saya dalam memecahkan masalah kompleks menggunakan pendekatan teknis yang kreatif.</p>
+                </div>
+            </div>
+
+            <div class="skills-grid">
+    <div class="skill-item">
+        <span>Python (Data Science)</span>
+        <div class="progress-line"><span class="skill-1" style="width: 90%;"></span></div>
+    </div>
+    <div class="skill-item">
+        <span>Web Development</span>
+        <div class="progress-line"><span class="skill-2" style="width: 80%;"></span></div>
+    </div>
+    <div class="skill-item">
+        <span>SQL Database</span>
+        <div class="progress-line"><span class="skill-3" style="width: 75%;"></span></div>
+    </div>
+    <div class="skill-item">
+        <span>Machine Learning</span>
+        <div class="progress-line"><span class="skill-4" style="width: 85%;"></span></div>
+    </div>
+</div>
+
+            <div class="education-section">
+                <h3>Pendidikan</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>S1 Teknik Informatika</h4>
+                        <p>Fokus: Data Science | 2023 - Sekarang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">PORTO<span>FOLIO</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-wrapper">
+                
+                <div class="contact-info">
+                    <h2>Mari <span>Bicara!</span></h2>
+                    <p>Punya pertanyaan mengenai analisis data, pengembangan web, atau ingin berkolaborasi dalam proyek e-commerce? Silakan hubungi saya melalui form atau saluran di bawah ini.</p>
+                    
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>delonandhikaputera@email.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-location-dot"></i></div>
+                        <div>
+                            <h4>Lokasi</h4>
+                            <p>Padang, Sumatera Barat, Indonesia</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="icon"><i class="fab fa-linkedin"></i></div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/@DelonAndhikaPutera</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Alamat Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Delon Andhika Putera. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">PORTO<span>FOLIO</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Building Future with <span>Data & Code</span></h1>
+            <p>Mahasiswa Informatika yang berfokus pada transformasi data menjadi solusi cerdas melalui Machine Learning dan Web Development.</p>
+            <div class="hero-btns">
+                <a href="projects.html" class="btn">Lihat Proyek</a>
+                <a href="contact.html" class="btn btn-outline">Hubungi Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats-wrapper">
+        <section class="stats-bar">
+            <div class="stat-item">
+                <h3>10+</h3>
+                <p>Proyek Selesai</p>
+            </div>
+            <div class="stat-item">
+                <h3>5+</h3>
+                <p>Algoritma Dikuasai</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Semangat Belajar</p>
+            </div>
+        </section>
+    </div>
+
+    <section class="focus-area">
+        <div class="container">
+            <h2 class="section-title">Fokus Utama Saya</h2>
+            <div class="focus-grid">
+                <div class="focus-card">
+                    <div class="icon-box"><i class="fas fa-database"></i></div>
+                    <h3>Data Science</h3>
+                    <p>meningkatkan efisiensi operasional, mendukung pengambilan keputusan berbasis data yang akurat, serta memprediksi tren masa depan guna keunggulan kompetitif.</p>
+                </div>
+                <div class="focus-card">
+                    <div class="icon-box"><i class="fas fa-code"></i></div>
+                    <h3>Web Dev</h3>
+                    <p>membangun situs fungsional yang meningkatkan kredibilitas, memperluas jangkauan pasar, dan meningkatkan konversi penjualan.</p>
+                </div>
+                <div class="focus-card">
+                    <div class="icon-box"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning</h3>
+                    <p>otomatisasi tugas, analisis data prediktif, peningkatan efisiensi operasional, dan personalisasi pengalaman pengguna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Delon Andhika Putera. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">PORTO<span>FOLIO</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" style="height: 40vh; clip-path: none;">
+        <div class="hero-content">
+            <h1>My <span>Projects</span></h1>
+            <p>Kumpulan karya dan riset di bidang Data Science serta Pengembangan Web.</p>
+        </div>
+    </header>
+
+    <section class="project-section">
+        <div class="container">
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <div class="icon-box">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Sales Prediction System</h3>
+                    <p>Implementasi algoritma <strong>Decision Tree</strong> untuk memprediksi tingkat penjualan baju di Toko Tiara Collection berdasarkan data historis.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="icon-box">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Market Basket Analysis</h3>
+                    <p>Menganalisis pola pembelian konsumen menggunakan metode <strong>FP-Growth</strong> untuk menentukan strategi bundling produk yang efektif.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="icon-box">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>E-commerce Dashboard</h3>
+                    <p>Pengembangan antarmuka dashboard admin untuk memantau transaksi dan stok barang secara real-time dengan desain responsif.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="icon-box">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Sentiment Analysis</h3>
+                    <p>Klasifikasi ulasan pelanggan pada platform e-commerce menggunakan <strong>Support Vector Machine (SVM)</strong> untuk mengukur tingkat kepuasan.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Customer Segmentation</h3>
+                    <p>Mengelompokkan pelanggan berdasarkan perilaku belanja menggunakan algoritma <strong>K-Means Clustering</strong> untuk target pemasaran.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="icon-box">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Digital Sovereignty Study</h3>
+                    <p>Riset mengenai perlindungan Hak Kekayaan Intelektual (HKI) pada platform digital dan kedaulatan data di Indonesia.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 50px;">
+        <p>&copy; 2026 Nama Anda. Dibuat dengan dedikasi pada data.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>/* =========================================
+   1. CORE CONFIGURATION (MIDNIGHT NAVY)
+   ========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+
+:root {
+    --clr-night: #0a0f1d;
+    --clr-navy: #16213e;
+    --clr-navy-light: #1f2e54;
+    --clr-primary: #4cc9f0;
+    --clr-accent: #7209b7;
+    --clr-text: #e2e8f0;
+    --clr-muted: #94a3b8;
+    --glass: rgba(22, 33, 62, 0.8);
+    --shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, var(--clr-night) 0%, var(--clr-navy) 100%);
+    background-attachment: fixed;
+    color: var(--clr-text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* =========================================
+   2. NAVIGATION (CONSISTENT)
+   ========================================= */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem auto;
+    width: 90%;
+    height: 70px;
+    background: var(--glass);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+    box-shadow: var(--shadow);
+}
+
+.logo { font-weight: 800; font-size: 1.5rem; color: var(--clr-primary); }
+.nav-links { display: flex; gap: 1rem; list-style: none; }
+.nav-links a {
+    text-decoration: none;
+    color: var(--clr-text);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    transition: var(--transition);
+}
+.nav-links a:hover { background: var(--clr-primary); color: var(--clr-night); }
+
+/* =========================================
+   3. HOME PAGE - HERO (ENHANCED)
+   ========================================= */
+.hero {
+    padding: 10rem 0;
+    text-align: center;
+    position: relative;
+    /* Efek gradasi cahaya abstrak di background */
+    background: radial-gradient(circle at 10% 20%, rgba(76, 201, 240, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(114, 9, 183, 0.2) 0%, transparent 40%);
+}
+
+.hero h1 { 
+    font-size: 5rem; 
+    font-weight: 800; 
+    letter-spacing: -3px;
+    line-height: 1.1;
+    margin-bottom: 2rem; 
+    animation: fadeInUp 0.8s ease;
+}
+
+.hero h1 span { 
+    background: linear-gradient(90deg, var(--clr-primary), #b5179e); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 10px rgba(76, 201, 240, 0.3));
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: var(--clr-muted);
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    animation: fadeInUp 1s ease;
+}
+
+/* Home Stats Bar (Floating & Premium) */
+.stats-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.stats-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: var(--glass);
+    backdrop-filter: blur(20px);
+    padding: 3rem;
+    border-radius: 35px;
+    width: 85%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--shadow);
+}
+
+.stat-item h3 { font-size: 3rem; color: var(--clr-primary); margin-bottom: 5px; }
+.stat-item p { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; color: var(--clr-muted); }
+
+/* Focus Area (Home Content) */
+.focus-area { padding: 8rem 0; }
+.section-title { text-align: center; font-size: 3rem; margin-bottom: 4rem; }
+
+.focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+}
+
+.focus-card {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: var(--transition);
+}
+
+.focus-card:hover {
+    background: var(--clr-navy-light);
+    transform: translateY(-15px);
+    border-color: var(--clr-primary);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.icon-box {
+    font-size: 2.5rem;
+    color: var(--clr-primary);
+    margin-bottom: 1.5rem;
+}
+
+/* =========================================
+   4. ABOUT, PROJECTS & CONTACT (CONSISTENT)
+   ========================================= */
+.about-page { padding: 6rem 0; }
+
+.about-header {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    padding: 4rem;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+.about-img { position: relative; perspective: 1000px; }
+.about-img img {
+    width: 100%;
+    border-radius: 30px;
+    border: 4px solid rgba(255, 255, 255, 0.05);
+    transition: var(--transition);
+    z-index: 2;
+    position: relative;
+}
+
+/* Efek Glow di belakang foto */
+.about-img::before {
+    content: '';
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 20px; left: 20px;
+    background: var(--clr-primary);
+    border-radius: 30px;
+    z-index: 0;
+    opacity: 0.1;
+    transition: var(--transition);
+}
+
+.about-img:hover img { transform: translateY(-10px) rotateY(-5px); border-color: var(--clr-primary); }
+.about-img:hover::before { transform: translate(10px, 10px); opacity: 0.2; }
+
+.about-text h2 { font-size: 3.5rem; margin-bottom: 1.5rem; font-weight: 800; line-height: 1; }
+.about-text h2 span { color: var(--clr-primary); text-shadow: 0 0 20px rgba(76, 201, 240, 0.3); }
+
+/* Custom About Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.skill-item h4 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: var(--clr-primary);
+}
+
+.progress-line {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-line span {
+    height: 100%;
+    display: block;
+    border-radius: 20px;
+    background: linear-gradient(90deg, var(--clr-primary), var(--clr-accent));
+    box-shadow: 0 0 15px var(--clr-primary);
+    width: 0; 
+    animation: fillBar 2s ease-out forwards;
+}
+
+@keyframes fillBar { from { width: 0; } }
+.contact-page { padding: 6rem 0; }
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    background: var(--glass);
+    padding: 3rem;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--shadow);
+}
+
+.contact-info h2 { font-size: 2.5rem; margin-bottom: 1rem; color: var(--clr-primary); }
+.contact-info p { color: var(--clr-muted); margin-bottom: 2rem; }
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-item .icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(76, 201, 240, 0.1);
+    color: var(--clr-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+/* Contact Form */
+.contact-form { display: flex; flex-direction: column; gap: 1.2rem; }
+.form-group { position: relative; }
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    color: white;
+    outline: none;
+    transition: var(--transition);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: var(--clr-primary);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.contact-form textarea { height: 150px; resize: none; }
+/* =========================================
+   5. ANIMATIONS & FOOTER
+   ========================================= */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+footer { padding: 4rem; text-align: center; color: var(--clr-muted); border-top: 1px solid rgba(255, 255, 255, 0.05); }
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 3rem; }
+    .stats-bar { grid-template-columns: 1fr; gap: 2rem; }
+    .btn-outline { margin-left: 0; margin-top: 1rem; width: 100%; }
+}
+// Navigasi responsif (untuk mobile)
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    
+    if (burger) {
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+        });
+    }
+}
+
+// Efek scroll smooth
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+navSlide();
+
+console.log("Portofolio siap!");
